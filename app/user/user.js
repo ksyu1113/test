@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 export default async (req, res) => {
   const router = useRouter();
 
-
   try {
     if (req.method === 'GET') {
       // Read Operation (GET)
